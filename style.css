@@ -77,6 +77,7 @@ i {
     width: 40%;
     height: 40%;
     margin-top: 40px;
+    font-weight: 400;
 }
 
 #bottom-register h1,
@@ -96,7 +97,7 @@ p {
 
 @media screen and (max-width: 500px) {
     #mockup img {
-        height: 250px;
+        height: 200px;
         width: auto;
     }
 
@@ -106,7 +107,7 @@ p {
 
     #info-container {
         flex-direction: column;
-        align-items: end;
+        align-items:center;
         margin-bottom: 60px;
     }
 
